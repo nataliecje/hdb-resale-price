@@ -2,7 +2,7 @@
 
 An AI-powered system for HDB BTO development recommendations and price predictions.
 
-## 📁 Simple Structure
+## Simple Structure
 
 ```
 hdb-resale-price/
@@ -26,7 +26,7 @@ hdb-resale-price/
 └── README.md              # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -48,7 +48,7 @@ make all
 make quick
 ```
 
-## 📊 API Endpoints
+## API Endpoints
 
 - **Health Check**: `GET /api/health`
 - **BTO Recommendations**: `POST /api/bto-recommendations`
@@ -58,7 +58,7 @@ make quick
 - **Model Status**: `GET /api/model-status`
 - **System Metrics**: `GET /api/metrics`
 
-## 🔧 Development
+## Development
 
 ### Running Tests
 ```bash
@@ -75,7 +75,7 @@ make monitor
 make api-dev
 ```
 
-## 📈 Model Performance
+## Model Performance
 
 - **Random Forest**: R² = 0.85, MAE = $32,000
 - **Gradient Boosting**: R² = 0.87, MAE = $30,000
